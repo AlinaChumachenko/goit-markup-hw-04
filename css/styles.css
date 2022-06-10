@@ -359,12 +359,14 @@ ul {
 }
 
 /*-----------------------SECTION REGULAR CUSTOMERS----------------*/
-/* .block-list-regular-customers {
+.block-list-regular-customers {
     display: flex;
     justify-content: center;
 }
-
+/* 
 .blok-regular-customers {
+    width: 170px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
