@@ -363,7 +363,8 @@ ul {
     display: flex;
     justify-content: center;
 }
-/* 
+
+
 .blok-regular-customers {
     width: 170px;
     height: 92px;
@@ -371,14 +372,18 @@ ul {
     border-radius: 4px;
 }
 
+ 
 .blok-regular-customers:not(:last-child) {
     margin-right: 30px;
 }
+ .icon-regular-customers {
+     fill: currentColor;
+ }
 
 .blok-regular-customers:hover,
 .blok-regular-customers:focus {
     fill: var(--accent-color);
-} */
+}
 
 /*-----------------------SECTION PORTFOLIO----------------------*/
 
