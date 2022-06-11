@@ -369,11 +369,17 @@ ul {
 }
 
 .regular-customers-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+}
+
+.regular-costomers-icon {
+    Fill: #AFB1B8;
 }
 
 
