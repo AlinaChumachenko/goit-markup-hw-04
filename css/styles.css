@@ -384,16 +384,16 @@ ul {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--hero-text-color);
     fill: #AFB1B8;
+    background-color: var(--hero-text-color);
+ 
 } 
 
 .social-networks-link:hover,
-.social-networks-linkfocus {
-    background-color: var(--accent-color);
+.social-networks-link:focus {
+    background-color: var(--accent-color);   
     fill: var(--hero-text-color);
 }
-
 
 /*-----------------------SECTION REGULAR CUSTOMERS----------------*/
 .block-list-regular-customers {
