@@ -81,9 +81,7 @@ header {
     background-color: var(--hero-text-color);
     border: 1px solid #ECECEC;
 
-    /* padding-top: 24px;
-    padding-bottom: 25px;    */
-}
+    }
         
 ul {
     list-style: none;
@@ -99,6 +97,10 @@ ul {
 }  
     
 .logo-blue {
+    display: flex;
+    align-items: center;
+
+        
     color: var(--accent-color);
     font-family: Raleway, Tahoma, sans-serif;
     font-weight: 700;
@@ -141,6 +143,8 @@ ul {
 }
 
 .site-navigation {
+    display:block;
+
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -194,7 +198,6 @@ ul {
 
 .hero {
     max-width: 1600px;
-    height: 600px; 
     margin-left: auto;
     margin-right: auto; 
     background-color: #2F303A;
@@ -249,11 +252,13 @@ ul {
 
 .list-our-featires {
     display: flex;
-    justify-content: space-between;
+    margin-left: 30px; 
 }
 
-.list-our-featires:not(:last-child) {
+.list-our-featires {
+    flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
+   
 }
 
 .block-title {
@@ -263,13 +268,15 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
+    
     margin-bottom: var(--typical-margin-maxi);
 }
 
 .blok-title-list {
     /* width: 270px; */
     flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
+
 }
 
 .blok-title-list::before{
