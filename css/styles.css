@@ -252,14 +252,21 @@ ul {
 
 .list-our-featires {
     display: flex;
-    margin-left: 30px; 
+    margin-right: -30px;
 }
 
-.list-our-featires {
+.blok-title-list {
+    /* width: 270px; */
+    flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
+
+}
+
+/* .list-our-featires {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
    
-}
+} */
 
 .block-title {
     color: var(--primary-text-color);
@@ -272,12 +279,7 @@ ul {
     margin-bottom: var(--typical-margin-maxi);
 }
 
-.blok-title-list {
-    /* width: 270px; */
-    flex-basis: calc(100% / 4 - 30px);
-    margin-right: 30px;
 
-}
 
 .blok-title-list::before{
     display: block;
