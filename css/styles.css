@@ -432,6 +432,7 @@ ul {
 
 .regular-customers-item {
     flex-basis: calc(100% / 6 - 30px);
+    margin-left: 30px;
 }
 
 .regular-customers-link {
@@ -508,7 +509,6 @@ ul {
 }
 
 .block-portfolio-card {
-    width: 370px;
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
