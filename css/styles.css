@@ -424,10 +424,7 @@ ul {
 .block-list-regular-customers {
     display: flex;
     justify-content: center;
-}
-
-.regular-customers-item + .regular-customers-item {
-    margin-left: 30px;
+    margin-left: -30px; 
 }
 
 .regular-customers-item {
